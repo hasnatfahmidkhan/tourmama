@@ -1,0 +1,204 @@
+/* Laptop (screen smaller than 1200px) */
+@media (max-width: 1300px) {
+  /* ===== Start: hero or main section  ===== */
+
+  main .main-container {
+    max-width: 90vw;
+  }
+  .hero-left-text h1 {
+    font-size: 2.5rem;
+  }
+
+  .btn {
+    font-size: 0.7rem;
+    padding: 0.6rem 1.3rem;
+  }
+  /* ===== End: hero or main section  ===== */
+
+  /* ===== Start: Services ===== */
+
+  .service-top-text h4 {
+    font-size: 2rem;
+  }
+
+  .service-top-text p {
+    font-size: 3rem;
+  }
+  .cards-container {
+    gap: 2rem;
+  }
+
+  .cards-container .card {
+    width: 300px;
+  }
+
+  .card img {
+    width: 55px;
+  }
+
+  .card h3 {
+    font-size: 1.3rem;
+  }
+
+  .card p {
+    font-size: 1rem;
+  }
+
+  /* ===== End: Services ===== */
+
+  /* ===== Start: China section ===== */
+  .china-text p {
+    font-size: 1rem;
+  }
+  /* ===== End: China section ===== */
+}
+
+/* Tablet (screen smaller than 992px) */
+@media (max-width: 1024px) {
+  /* ===== Start: main section or hero section ===== */
+
+  .hero-left-text h1 {
+    font-size: 1.6rem;
+  }
+  .hero-left-text h4 {
+    font-size: 0.87rem;
+    margin: 1rem 0;
+  }
+
+  .btn {
+    font-size: 0.7rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .hero-right-img {
+    width: 60%;
+  }
+  /* ===== End: main section or hero section ===== */
+
+  /* ===== Start: Services ===== */
+
+  .cards-container {
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  /* ===== End: Services ===== */
+
+  /* ===== Start: china section ===== */
+
+  .china-container {
+    padding: 1rem 2rem;
+  }
+
+  .china-text h2 {
+    font-size: 1.5rem;
+  }
+
+  .china-text p {
+    font-size: 0.9rem;
+  }
+  .china-content--container .china-wall--img {
+    width: 300px;
+  }
+
+  /* ===== End: china section ===== */
+
+  /* ===== Start: Review section ===== */
+
+  .review-card--bottom-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  /* ===== End: Review section ===== */
+}
+
+/* Phone (screen smaller than 768px) */
+@media (max-width: 640px) {
+  /* ===== Start: Hero Section or main section  ===== */
+
+  main .main-container {
+    flex-direction: column-reverse;
+    text-align: center;
+    align-items: center;
+  }
+
+  .hero-left-text h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero-left-text h4 {
+    font-size: 0.9rem;
+  }
+
+  .btn {
+    font-size: 0.6rem;
+  }
+  /* ===== End: Hero Section or main section  ===== */
+
+  /* ===== Start: Services ===== */
+
+  .service-top-text p {
+    font-size: 2rem;
+  }
+
+  .cards-container {
+    gap: 2rem;
+  }
+
+  /* ===== End: Services ===== */
+
+  /* ===== Start: China Section ===== */
+
+  .china-container {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    border-radius: 2rem;
+  }
+
+  .china-text {
+    align-items: center;
+    text-align: justify;
+  }
+
+  /* ===== End: China Section ===== */
+
+  /* ===== Start: Review section ===== */
+
+  .review-card {
+    /* width: 90%; */
+    padding: 1.5rem;
+  }
+
+  .review-top-text h2 {
+    font-size: 1rem;
+  }
+  .review-top-text h3 {
+    font-size: 1.8rem;
+  }
+  .review-card--bottom-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .review-card--bottom-content img{
+  
+    width: 200px;
+    }
+  /* ===== End: Review section ===== */
+
+  /* ===== Start: footer  ===== */
+
+  footer p {
+    font-size: 0.6rem;
+  }
+
+  footer .icon i {
+    margin-left: 0.5rem;
+    font-size: 1rem;
+  }
+
+  /* ===== End: footer  ===== */
+}

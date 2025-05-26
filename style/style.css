@@ -1,0 +1,354 @@
+/* ===== Start: CSS reset ===== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Baloo Bhai 2", sans-serif;
+}
+
+html body {
+  background-color: var(--main-bg-color);
+  scroll-behavior: smooth;
+}
+
+/* all images width will be 100%   */
+
+img {
+  width: 100%;
+}
+
+/* ===== End: CSS reset ===== */
+
+/* ===== Start: theme ===== */
+
+:root {
+  --btn-color: #872bff;
+  --pink-txt-color: #f424d4;
+  --main-bg-color: #f4effa;
+  --black-txt-color: #919191;
+}
+
+/* ===== End: theme ===== */
+
+/* ===== Start: All buttons ===== */
+
+.btn {
+  letter-spacing: 0.7px;
+  text-decoration: none;
+  background-color: var(--btn-color);
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding: 0.73rem 1.6rem;
+  border-radius: 1.5rem;
+  margin-right: 1rem;
+}
+
+/* ===== End: All buttons ===== */
+
+/* ===== Start: Main container ===== */
+
+main .main-container {
+  background-image: url(/images/hero-bg.png);
+  max-width: 80vw;
+  margin: 4rem auto;
+  border: 3px solid rgba(196, 155, 250, 0.15);
+  border-radius: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 2rem;
+}
+
+.hero-left-text h1 {
+  line-height: 1.2;
+  font-weight: bold;
+  color: #333;
+  font-size: 4.5rem;
+}
+
+#pink-color {
+  display: block;
+  color: var(--pink-txt-color);
+}
+
+.hero-left-text h4 {
+  font-size: 1rem;
+  /* margin: 2rem 0; */
+  margin: 3rem 0;
+  word-spacing: 1px;
+  color: var(--black-txt-color);
+}
+
+.bnt-bg-white {
+  background-color: #fff;
+  border: 1.7px solid var(--btn-color);
+  color: black;
+}
+
+.hero-right-img {
+  width: 50%;
+}
+
+/* ===== End: Main container ===== */
+
+/* ===== Start: Services ===== */
+
+#services .services-container {
+  margin: 5.8rem 0;
+}
+
+.service-top-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service-top-text h4 {
+  color: var(--pink-txt-color);
+  font-size: 2.5rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.service-top-text p {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+  gap: 3rem;
+}
+
+.cards-container .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  width: 400px;
+  aspect-ratio: 1;
+  background-color: #fff;
+  border-radius: 1.5rem;
+  padding: 3rem;
+  text-align: center;
+}
+
+.card img {
+  width: 70px;
+}
+
+.card h3 {
+  text-transform: capitalize;
+  font-size: 2rem;
+  color: #333;
+}
+
+.card p {
+  text-transform: inherit;
+  font-size: 1.5rem;
+  color: var(--black-txt-color);
+}
+
+/* ===== End: Services ===== */
+
+/* ===== Start: China section ===== */
+
+#china .china-content--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
+  padding: 1rem 0;
+}
+
+.china-heading {
+  text-align: center;
+}
+
+.china-heading h4 {
+  color: var(--pink-txt-color);
+  letter-spacing: 6px;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.china-heading p {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.china-container {
+  width: 90vw;
+  background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin: 0 auto 4rem auto;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 3rem;
+  border-radius: 2rem;
+}
+
+.china-container .china-wall--img {
+  width: 350px;
+}
+
+.china-container .china-text img {
+  width: 100px;
+}
+
+.china-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  text-align: justify;
+}
+
+.china-text h2 {
+  font-size: 2.5rem;
+}
+
+.china-text p {
+  font-size: 1.7rem;
+  color: var(--black-txt-color);
+  line-height: 1.3;
+}
+
+/* ===== End: China section ===== */
+
+/* ===== Start: Countries section ===== */
+
+#countries .explore-countries {
+  width: 90vw;
+  margin: 0 auto 3rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+  text-align: center;
+  padding: 1rem;
+  text-transform: uppercase;
+}
+
+.explore-countries h2 {
+  font-size: 2rem;
+  color: var(--pink-txt-color);
+  margin-bottom: 1rem;
+}
+
+.explore-countries p {
+  font-size: 4rem;
+}
+
+.all-country-name {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  width: 80vw;
+  flex-wrap: wrap;
+}
+
+.all-country-name span {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  font-size: 2.5rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  padding: 2.5rem;
+}
+
+/* ===== End: Countries section ===== */
+
+/* ===== Start: Reviews section ===== */
+
+#review .review-container {
+  width: 90vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.review-top-text {
+  text-align: center;
+}
+
+.review-top-text h2 {
+  color: var(--pink-txt-color);
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.review-top-text h3 {
+  font-size: 3rem;
+}
+
+.reviews-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+.review-card {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  color: var(--black-txt-color);
+  line-height: 1.5;
+  text-align: justify;
+  padding: 2rem;
+  border-radius: 0.8rem;
+  background-color: #fff;
+  position: relative;
+}
+
+.review-card--bottom-content {
+  display: flex;
+  justify-content: flex-end;
+  text-align: center;
+  gap: 18rem;
+}
+.review-card--bottom-content h4 {
+  color: #333;
+}
+
+.review-card--bottom-content img {
+  width: 400px;
+  /* aspect-ratio: 1; */
+  /* position: absolute;
+  right: 1rem;
+  bottom: 1.8rem; */
+}
+
+/* ===== End: Reviews section ===== */
+
+/* ===== Start: Footer ===== */
+
+footer .footer-container {
+  height: 6vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 0 2rem;
+  margin-top: 5rem;
+  color: var(--black-txt-color);
+}
+
+footer .icon i {
+  margin-left: 0.8rem;
+  font-size: 1.5rem;
+  color: #872bff;
+}
+
+/* ===== End: Footer ===== */
